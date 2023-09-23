@@ -4,7 +4,6 @@ const socketIo = require('socket.io');
 const cors = require('cors')
 
 app.use(cors({
-  methods: ['GET' , 'POST'],
   origin: '*'
 }));
 
