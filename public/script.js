@@ -1,4 +1,4 @@
-const socket = io("https://datwalkerv-xyz.vercel.app/");
+const socket = io();
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('form');
